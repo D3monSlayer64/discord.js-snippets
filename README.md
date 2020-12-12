@@ -16,4 +16,6 @@ You also need the package fs for the main snippet
 * Add all the discord events
 * Clean up code
 
-If you want to see some things added Make an issuer [here]()
+If you want to see some things added Make an issue [here](https://github.com/D3monSlayer64/discord.js-snippets/issues/new)
+
+If you want to add a snippet or just change anythin yourself make a pull request [here]()
