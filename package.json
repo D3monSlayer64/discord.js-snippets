@@ -1,0 +1,32 @@
+{
+    "name": "discord-js-snippets",
+    "publisher": "Kp",
+    "displayName": "Discord.js snippets",
+    "description": "Discord.js v12 snippets",
+    "version": "0.0.5",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EPIC-GAMES69420/discord.js-snippets.git"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "fs": "0.0.1-security",
+        "vsce": "^1.77.0"
+    },
+    "main": "app.js"
+}
