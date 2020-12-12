@@ -88,7 +88,7 @@
       " * @param {Client} undefined",
       " */",
       "module.exports.run = async (msg, args, client) => {",
-      " msg.channel.send(\"pong\")",
+      " msg.channel.send(\"pong!\")",
       "",
       "}",
       "module.exports.config = {",
@@ -99,7 +99,7 @@
       "  aliases: [],",
       "};"
     ],
-    "description": "generates a command tools "
+    "description": "generates a command file "
   },
   "Message Collector": {
     "prefix": "messageCollector",
@@ -117,5 +117,15 @@
       ""
     ],
     "description": "Message Collector"
+  },
+  "On ready event": {
+    "prefix": "ready",
+    "body": ["${1:client}.on(\"ready\", () => {", "    ", "})"],
+    "description": "On ready event"
+  },
+  "On message event": {
+    "prefix": "message",
+    "body": ["${1:client}.on(\"message\", (msg) => {", "    ", "})"],
+    "description": "On message event"
   }
 }
