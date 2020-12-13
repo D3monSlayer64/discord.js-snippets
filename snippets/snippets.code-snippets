@@ -127,5 +127,102 @@
     "prefix": "message",
     "body": ["${1:client}.on(\"message\", (msg) => {", "    ", "})"],
     "description": "On message event"
+  },
+  "Channel Create event": {
+    "prefix": "channelCreate",
+    "body": [
+      "client.on(\"channelCreate\", (${1:channel}) => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "Channel Create event"
+  },
+  "Channel Delete event": {
+    "prefix": "channelDelete",
+    "body": [
+      "client.on(\"channelDelete\", (${1:channel}) => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "Channel Delete event"
+  },
+  "Channel Pins event": {
+    "prefix": "channelPins",
+    "body": [
+      "client.on(\"channelPinsUpdate\", (${1:channel}) => {",
+      "",
+      "})"
+    ],
+    "description": "Channel Pins event"
+  },
+  "Channel update event": {
+    "prefix": "channelUpdate",
+    "body": [
+      "client.on(\"channelUpdate\", () => {",
+      "",
+      "})"
+    ],
+    "description": "Channel update event"
+  },
+  "debug event": {
+    "prefix": "debug",
+    "body": [
+      "client.on(\"debug\", () => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "debug event"
+  },
+  "disconnect event": {
+    "prefix": "disconnect",
+    "body": [
+      "client.on(\"disconnect\", () => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "disconnect event"
+  },
+  "emoji Create event": {
+    "prefix": "emojiCreate",
+    "body": [
+      "client.on(\"emojiCreate\", () => {",
+      "",
+      "})"
+    ],
+    "description": "emoji Create event"
+  },
+  "emoji Delete event": {
+    "prefix": "emojiDelete",
+    "body": [
+      "client.on(\"emojiDelete\", () => {",
+      "",
+      "})"
+    ],
+    "description": "emoji Delete event"
+  },
+  "emoji Update event": {
+    "prefix": "emojiUpdate",
+    "body": [
+      "client.on(\"emojiUpdate\", () => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "emoji Update event"
+  },
+  "error event": {
+    "prefix": "error",
+    "body": [
+      "client.on(\"error\", () => {",
+      "",
+      "})",
+      ""
+    ],
+    "description": "error event"
   }
+
 }
