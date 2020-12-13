@@ -3,6 +3,6 @@ commands
 .vscodeignore
 app.js
 package-lock.json
-
+.vscode/
 .github/
 .vsc-extension-quickstart.md
