@@ -2,7 +2,7 @@
 
 This is all you need for discord.js snippets
 
-Command Handler by [DashCruft](https://github.com/Dashcruft])
+Command Handler by [DashCruft](https://github.com/Dashcruft)
 
 ## For the main snippet you must have a commands folder like this 
 "commands/category/commandname"
