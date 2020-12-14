@@ -85,7 +85,7 @@
       " * ",
       " * @param {MessageEmbed} embed ",
       " * @param {Message} msg ",
-      " * @param {Client} undefined",
+      " * @param {Client} client",
       " */",
       "module.exports.run = async (msg, args, client) => {",
       " msg.channel.send(\"pong!\")",
